@@ -48,6 +48,23 @@
 
     <!-- build:js({.tmp,app}) scripts/scripts.js -->
     <script src="app.js"></script>
+    <script src="/auth/auth_controller.js"></script>
+    <script src="/auth/auth_service.js"></script>
+
     <!-- endbuild -->
+    <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyC7v57eBto2qNDkRW2AKIooUxQ7XIMmSfg",
+      authDomain: "dbc-slack.firebaseapp.com",
+      databaseURL: "https://dbc-slack.firebaseio.com",
+      storageBucket: "dbc-slack.appspot.com",
+    };
+    firebase.initializeApp(config);
+  </script>
+
 </body>
 </html>
